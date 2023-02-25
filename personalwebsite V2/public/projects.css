@@ -1,0 +1,83 @@
+@font-face{
+	font-family: FLL;
+	src:url("Fonts/FLL.ttf") format('truetype'),
+		url("Fonts/FLL.woff") format('woff'),
+		url("Fonts/FLL.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+img{
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Courier";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: "Courier";
+}
+
+.project-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project-card-info p{
+    font-size: 1em;
+}
+
+.project-card-info h3 {
+    font-size: 1.2em;
+    font-family: "Courier";
+}
+
+.project-card-info button{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border: 0px;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.project-header p{
+    margin: 0%;
+}
+
+.project-card{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+}
+
+.project-card-content {
+    min-width: 30%;
+}
+
+.project-card .image{
+    min-width: 70%;
+    max-height: 100%;
+    object-fit: scale-down;
+    overflow: hidden;
+}

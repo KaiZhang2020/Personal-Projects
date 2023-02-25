@@ -4,47 +4,196 @@
 	<meta charset="utf-8">
 	<title>index</title>
 	<link rel="stylesheet" href="styles.css?version=8">
+	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<header>
 		<nav>
+			<div id="logo"><img src="/public/Pictures/logo.png"></div>
 			<ul class="nav_links">
-				<a href="#"><img src="logo.png"></a>
-				<li><a href="#">Home</a></li>
-				<li><a href="Projects.html">Projects</a></li>
-				<li><a href="Contacts.html">Contacts</a></li>
+				<li><a href="#main-section-2">Introductions</a></li>
+				<li><a href="#main-section-3">Projects</a></li>
+				<li><a href="#main-section-4">Education</a></li>
+				<li><a href="#main-section-5">Contact Me</a></li>
 			</ul>
 		</nav>
 	</header>
 	
-	<div class="float-container">
-		<div class="float-child">
-			<div class="description">
-				<div class="typedout">
-						<p>Hello</p><br>
-						<p>I'm Kai</p><br>
-						<p>Computer Science Student</p>
-				</div>
-			</div>
-		</div>
-		<div class="float-child2">
-			<div class="me">
-				<img src="myself.png">
-			</div>
-		</div>
+	<!--sidebars-->
+	<div id="left-sidebar">
+		<a href="https://www.linkedin.com/in/kai-zhang-96bb1011b/"><img src="pictures/social_logos/Linkedin.png"></a>
+		<a href="https://github.com/KaiZhang2020"><img src="Pictures/social_logos/github-mark.png"></a>
+		<a href="https://www.instagram.com/kai_zhang_2020/"><img src="Pictures/social_logos/75-755741_instagram-icons-png.png"></a>
 	</div>
-	<div class="projects-done">
-		<div class="projects-done-text">
-			<p>My God <br><br>
-			You actually found my website<br><br>
-			Im actully not sure what to put here so<br><br>
-			What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.
+
+	<div id="right-sidebar">
+		<a href="mailto:zhangkai@uw.edu">zhangkai@uw.edu</a>
+	</div>
+
+	<!--landing-->
+	<section class="main-section-1">
+		<div id="main-text">
+			<h6>Hey there! My name is</h6>
+			<h1>Kai Zhang.</h1>
+			<h4>I'm a student, developer and designer</h4>
+		</div>
+	</section>
+
+	<!--intro-->
+	<section id="main-section-2">
+		<div id="main-section-2-text">
+			<h3>Allow me to introduce myself.</h3>
+			<p>I'm currently Pursuing a degree in 
+				computer science and systems engineering
+				in University of Washington Bothell, my primary
+				interest are front-end and back-end web development,
+				Cybersecurity. <br>
+				I am <a href="#">open to work</a>
 			</p>
 		</div>
-	</div>
+		<div id="main-section-2-content">
+			<div id="main-section-2-api">
+				<p>API Section <br> Coming Soon</p>
+			</div>
+			<ul id="main-section-2-progress">
+				<h6>HTML/CSS</h6>
+				<li>
+					<div id="Htmlcss"><span>80%</span></div>
+				</li>
+				<h6 >Java</h6>
+				<li>
+					<div id="Java"><span>80%</span></div>
+				</li>
+				<h6>Python</h6>
+				<li>
+					<div id="Python"><span>60%</span></div>
+				</li>
+				<h6>JavaScript</h6>
+				<li>
+					<div id="JS"><span>20%</span></div>
+				</li>
+				
+			</div>
+		</div>
+	</section>
 	
+	<!--projects-->
+	<section id="main-section-3">
+		<h2>Finished projects</h2>
+		<div class="project-card-left">
+			<div class="project-card-info">
+				<h2>Personal Website</h2>
+				<p>This is my personal website that i built and is being hosted at my home
+					after taking a course on web development and doing
+					some learning outside of my schoolwork. It is also
+					my first personal project I did since starting my
+					computer science jorney
+				</p>
+				<h3>Programming Langauge used:</h3>
+				<p>HTML5 CSS Express.js Node.js</p>
+				<button>GitHub</button>
+			</div>
+			<div class="project-img" style="margin-right: 10%;">
+				<img src="Pictures/website-snapshot.JPG">
+			</div>
+			
+		</div>
+		<div class="project-card-right">
+			<div class="project-card-info">
+				<h2>Banking system</h2>
+				<p>This is a Banking simulator project I built for my Applied Algorithems class
+					it uses Binary Search trees to store data, and uses queues to process inputs
+				</p>
+				<h3>Programming Langauge used:</h3>
+				<p>Python</p>
+				<button>GitHub</button>
+			</div>
+			<div class="project-img" style="margin-left: 10%;">
+				<img src="projects/BankProject.JPG">
+			</div>
+			
+		</div>
+	</section>
+
+	<!--Education-->
+	<section id="main-section-4">
+		<h1>Education</h1>
+		<div id="tabs">
+			<button class="edu-tag" id="uwb-button">
+				UW Bothell
+			</button>
+			<button class="edu-tag" id="bc-button">
+				Bellevue College
+			</button>
+			<button class="edu-tag" id="nhs-button">
+				Newport High School
+			</button>
+		</div>
+		<div class="tab-content-displayed" id="uwb">
+			<h2>University of Washington Bothell</h2>
+			<p>bachlor of science in Computer Science and Software Engineering</p>
+			<h6>2020-2024</h6>
+		</div>
+		<div class="tab-content-hidden" id="bc">
+			<h2>Bellevue College</h2>
+			<p>Associates of arts and sciences</p>
+			<h6>2018-2020</h6>
+		</div>
+		<div class="tab-content-hidden" id="nhs">
+			<h2>Newport High School</h2>
+			<p>Cisco</p>
+			<h6>2018-2020</h6>
+		</div>
+	</section>
+
+	<!--contacts-->
+	<section id="main-section-5">
+		<h1>Contact me</h1>
+		<div id="section-5-content">
+			<div id="section-5-left">
+				<h3>
+					Kai Zhang
+				</h3>
+				<h6>
+					Phone: 206-876-0143
+				</h6>
+				<h6>
+					Email: zhangkai@uw.edu
+				</h6>
+				<h6>
+					GitHub: <a href="https://github.com/KaiZhang2020">KaiZhang2020</a>
+				</h6>
+				<h6>
+					Linkedin: <a href="https://www.linkedin.com/in/kai-zhang-96bb1011b/">Kai_Zhang</a>
+				</h6>
+			</div>
+			<div id="section-5-right">
+				<form>
+					<div class="info-box-form">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name">
+					</div>
+					<div class="info-box-form">
+						<label for="email">Email</label>
+						<input type="text" id="name" name="name">
+					</div>
+					<div class="info-box-form">
+						<label for="phone">Phone</label>
+						<input type="text" id="phone" name="phone">
+					</div>
+					<div class="info-box-form">
+						<label for="comments">Comments</label>
+						<textarea type="text" id="comments" name="comments"></textarea>
+					</div>
+	
+				</form>
+				<button>Submit</button>
+			</div>
+		</div>
+		
+	</section>
 	<footer>
-		<p>Author: Kai Zhang <br><br><a href="mailto:zhangkai@uw.edu">zhangkai@uw.edu</a> <br><br> Picture credit: Aimar Azis</p>
+		designed & built by Kai Zhang in 2023
 	</footer>
 </body>
 </html>

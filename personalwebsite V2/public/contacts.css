@@ -1,0 +1,173 @@
+h1{
+    text-align: center;
+    font-family: "Courier";
+    font-size: 3rem;
+}
+
+#contact-first {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10%;
+}
+
+#info-box-1 {
+    width: 50%;
+    border-right: 2px solid black;
+    text-align: left;
+    font-family: "Courier";
+    padding-right: 2.5%;
+}
+
+#info-box-1 h3 {
+    margin-block-start:0;
+    font-size: 2.5rem;
+}
+
+#info-box-1 h6 {
+    font-size: 1.2rem;
+}
+
+#socials {
+    font-family: "Courier";
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social {
+    margin-right: 2.5%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#socials button{
+    background-color: white;
+    text-align: center;
+    line-height: 16px;
+    border: 1px solid black;
+    vertical-align: middle;
+    transition: 0.4s;
+}
+
+#socials button:hover{
+    background-color: black;
+    color: white;
+}
+
+#info-box-2 {
+    padding-left: 2.5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#info-box-2 form {
+    margin-top: 0;
+}
+
+.info-box-form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info-box-form input {
+    height: 30px;
+    width: 70%;
+}
+
+#comments {
+    font-size: 20px;
+    height: 80px;
+    width: 100%;
+}
+
+#info-box-2 button {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 50px;
+    transition: 0.4s;
+}
+
+#info-box-2 button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* begin second section*/
+
+#contact-second h2 {
+    font-family: "Courier";
+    font-size: 2rem;
+}
+
+#contact-second {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10%;
+}
+
+#comment-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#comment-container #name{
+    width: 35%;
+    margin-bottom: 5%;
+    height: 25px;
+}
+
+#comment-container #comment-box {
+    height: 80px;
+    width: 100%;
+}
+
+#comment-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.single-comment{
+    border-top: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.single-comment img {
+    width: 15%;
+}
+
+#comment-text {
+    
+    padding-left: 5%;
+    width: 85%;
+}
+
+#comment-text h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: "Courier";
+    font-size: 1rem;
+}
+
+#comment-text h6 {
+    margin-top: 0;
+    font-size: 0.8rem;
+    text-align: left;
+    font-family: "Courier";
+}
