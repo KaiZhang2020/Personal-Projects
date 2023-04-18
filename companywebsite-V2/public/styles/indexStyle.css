@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #fcfcbd;
+  height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  max-height: 100%;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  font-size: 20px;
+  display: inline;
+  padding-left: 60px;
+}
+
+nav #logo {
+  height: 100%;
+}
+
+nav img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+#landing {
+  background-color: #fcfcbd;
+  height: 93vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+}
+
+#landing #img {
+  height: 50%;
+  justify-self: baseline;
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+}
+
+#landing #landing_banner {
+  height: 50%;
+  width: 30%;
+  margin-top: 20vh;
+  margin-right: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#Services {
+  background-color: #feffe1;
+  height: 100vh;
+  padding: 5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#banner {
+  margin-bottom: 5vh;
+}
+
+#banner p {
+  margin: 0;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30px;
+}
+
+.main-card img {
+  height: 50%;
+}
+
+.inner-card {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.inner-card button {
+  padding: 10px 20px;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: #feffe1;
+  border: 1.5px solid black;
+  font-size: 1em;
+}

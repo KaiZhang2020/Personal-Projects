@@ -1,0 +1,104 @@
+#qoute-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fcfcbd;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 5vh;
+}
+
+#qoute-banner h1 {
+  letter-spacing: 4px;
+  margin-top: 5vh;
+  margin-bottom: 0;
+  font-size: 3em;
+}
+
+#main-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcfcbd;
+  height: 80vh;
+}
+
+#reviews {
+  width: 50%;
+}
+
+#qoute-form {
+  width: 50%;
+}
+#reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.review-card p {
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.review-card h6 {
+  font-size: 1.2rem;
+  align-self: flex-end;
+}
+
+#qoute-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fcfcbd;
+  align-items: stretch;
+  height: 60vh;
+}
+
+#qoute-form button {
+  margin-top: 5%;
+  margin-right: 50%;
+  align-self: flex-end;
+  background-color: inherit;
+  outline: none;
+  font-size: 1rem;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 150px;
+  height: 50px;
+}
+
+.qoute-form-box {
+  padding-top: 2.5vh;
+}
+
+#qoute-form-container {
+  width: 40%;
+}
+
+.qoute-form-box label {
+  font-size: 1.2rem;
+}
+
+.qoute-form-box input,
+textarea {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 1.5px solid black;
+  background-color: #fcfcbd;
+  color: black;
+}
+
+.qoute-form-box input {
+  height: 38px;
+}
+
+.qoute-form-box textarea {
+  height: 68px;
+}
